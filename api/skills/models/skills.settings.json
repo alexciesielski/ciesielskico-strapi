@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "clients",
+  "collectionName": "skills",
   "info": {
-    "name": "Client"
+    "name": "Skills"
   },
   "options": {
     "increments": true,
@@ -23,14 +23,10 @@
       "plugin": "upload",
       "required": false
     },
-    "projects": {
-      "via": "client",
-      "collection": "project"
+    "startDate": {
+      "type": "date"
     },
-    "url": {
-      "type": "string"
-    },
-    "order": {
+    "strength": {
       "type": "integer"
     }
   }

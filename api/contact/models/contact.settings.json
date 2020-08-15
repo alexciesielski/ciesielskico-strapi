@@ -17,6 +17,9 @@
     },
     "cta": {
       "type": "string"
+    },
+    "ciesielskico_email": {
+      "type": "email"
     }
   }
 }

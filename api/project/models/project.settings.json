@@ -26,8 +26,8 @@
       "type": "richtext"
     },
     "client": {
-      "via": "projects",
-      "model": "client"
+      "model": "client",
+      "via": "projects"
     },
     "short_description": {
       "type": "string"
@@ -37,6 +37,12 @@
     },
     "endDate": {
       "type": "date"
+    },
+    "ciesielskico_short_description": {
+      "type": "string"
+    },
+    "ciesielskico_description": {
+      "type": "richtext"
     }
   }
 }

@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_mes",
+  "info": {
+    "name": "About Me"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Intro": {
+      "type": "richtext"
+    },
+    "About": {
+      "type": "richtext"
+    }
+  }
+}
