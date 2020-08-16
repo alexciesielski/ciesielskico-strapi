@@ -28,6 +28,9 @@
     },
     "strength": {
       "type": "integer"
+    },
+    "endDate": {
+      "type": "date"
     }
   }
 }
